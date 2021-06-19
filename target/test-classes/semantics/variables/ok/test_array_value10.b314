@@ -1,0 +1,23 @@
+/*
+
+0
+
+0,0,0
+
+0,0,0,0,0
+*/
+declare and retain
+    b as boolean;
+    i as integer;
+    s as square[4];
+    s2 as square[6,7];
+    t3 as boolean[42, 42];
+    t4 as boolean[4];
+when your turn
+by default
+    do
+        set s[0] to dirt
+        set s2[1,2] to rock
+        set t3[3,2] to true
+        set t4[2] to false
+    done

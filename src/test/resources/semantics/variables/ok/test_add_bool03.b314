@@ -1,0 +1,21 @@
+/*
+
+0
+
+0,0,0
+
+0,0,0,0,0
+*/
+declare and retain
+    i as integer;
+    j as integer;
+    k as integer;
+    l as integer;
+when your turn
+by default
+    do
+        set i to 5
+        set j to 3
+        set k to 2
+        set l to i + j * k
+    done

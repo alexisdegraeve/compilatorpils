@@ -1,0 +1,27 @@
+/* Comments */
+
+affect(, 2+4)
+
+
+
+
+/* Programme */
+declare and retain
+ import b.wld
+ myVar98 as boolean;
+ i as integer;
+ v as boolean;
+ t as boolean;
+ arena as square [5];
+ f as function():boolean
+    declare local
+    v as integer;
+ do
+        set v to 50
+        set t to false
+        return t
+ done
+ when your turn
+by default do
+    set i to 125
+done

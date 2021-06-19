@@ -1,0 +1,14 @@
+/* My comments */
+declare and retain
+    x as integer;
+    y as square;
+    t1 as boolean[42];
+
+when your turn
+by default
+    do
+        compute not x < 5
+
+
+
+    done

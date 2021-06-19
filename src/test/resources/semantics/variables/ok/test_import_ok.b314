@@ -1,0 +1,16 @@
+
+declare and retain
+    import inputFile.wld
+    b1 as  boolean;
+    import myWorld2.wld
+    b2 as boolean;
+    b3 as boolean;
+    i1 as integer;
+when your turn
+     by default
+     do
+       if not fct1()  then
+         next  move west
+       done
+     next do nothing
+     done

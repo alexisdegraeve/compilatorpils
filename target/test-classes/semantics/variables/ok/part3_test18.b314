@@ -1,0 +1,20 @@
+/*
+
+0
+
+0,0,0
+
+0,0,0,0,0
+*/
+declare and retain
+    b as boolean[3];
+    b2 as boolean[2,3];
+    i as integer;
+    s as square;
+when your turn
+by default
+    do
+        set b[0] to true and false or true
+        set b[0] to graal is north or (b[0] and nearby[1,1] = zombie)
+        set b[0] to ennemi is north and not b[0]
+    done

@@ -1,0 +1,63 @@
+declare and retain
+f1 as square;
+f2 as  integer;
+f3 as  boolean ;
+f4 as  square;
+f5 as  integer;
+
+fct1 as function (x as  integer) : square
+    do
+        //set (exprG f5) to (exprD (exprCase map)))
+
+        set f5 to  map
+        return f1
+    done
+
+fct2 as function (x as  integer) : integer
+    do
+        set f2 to x
+        return f2
+    done
+
+fct3 as function (x as  boolean) : boolean
+    do
+        set f3 to x
+        return f3
+    done
+
+fct4 as function () : square
+    do
+        set  f1 to  ammo
+        return f1
+    done
+
+fct5 as function () : integer
+    do set  f2 to 34
+    return f2
+    done
+
+when your turn
+    by default
+    do
+    if not fct1 (5) = map
+    then next  move north
+    done
+
+    if not fct2 (42) =  42
+    then next  move west
+    done
+
+    if not fct3 (true)
+    then next  move south
+    done
+
+    if not fct4() = ammo
+    then next move east
+    done
+
+    if not fct6() =  34
+        then  next shoot east
+    done
+    next do nothing
+
+    done

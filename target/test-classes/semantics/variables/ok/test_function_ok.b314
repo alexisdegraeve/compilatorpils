@@ -1,0 +1,22 @@
+declare and retain
+    f1 as boolean;
+    fct1 as function(): boolean
+    do
+      set f1 to true
+      return f1
+    done
+when your turn
+     by default
+     do
+       if not fct1()  then
+         next  move west
+         next  move north
+             if not fct1()  then
+                next  move east
+                    if not fct1()  then
+                         next  move north
+                    done
+              done
+       done
+     next do nothing
+     done

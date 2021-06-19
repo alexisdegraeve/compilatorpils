@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_demo-compiler" default="compile.module.demo-compiler">
+  <dirname property="module.demo-compiler.basedir" file="${ant.file.module_demo-compiler}"/>
+  
+  <property name="module.jdk.home.demo-compiler" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.demo-compiler" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.demo-compiler" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.demo-compiler" value="-encoding UTF-8 -source 8 -target 1.8 ${compiler.args}"/>
+  
+  <property name="demo-compiler.output.dir" value="${module.demo-compiler.basedir}/target/classes"/>
+  <property name="demo-compiler.testoutput.dir" value="${module.demo-compiler.basedir}/target/test-classes"/>
+  
+  <path id="demo-compiler.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="demo-compiler.module.production.classpath">
+    <path refid="${module.jdk.classpath.demo-compiler}"/>
+    <path refid="library.maven:_org.antlr:antlr4:4.6.classpath"/>
+    <path refid="library.maven:_org.antlr:antlr4-runtime:4.6.classpath"/>
+    <path refid="library.maven:_org.antlr:antlr-runtime:3.5.2.classpath"/>
+    <path refid="library.maven:_org.antlr:st4:4.0.8.classpath"/>
+    <path refid="library.maven:_org.abego.treelayout:org.abego.treelayout.core:1.0.3.classpath"/>
+    <path refid="library.maven:_org.glassfish:javax.json:1.0.4.classpath"/>
+    <path refid="library.maven:_com.google.guava:guava:20.0.classpath"/>
+    <path refid="library.maven:_commons-cli:commons-cli:1.3.1.classpath"/>
+    <path refid="library.maven:_org.slf4j:slf4j-api:1.7.22.classpath"/>
+    <path refid="library.maven:_org.apache.logging.log4j:log4j-slf4j-impl:2.7.classpath"/>
+    <path refid="library.maven:_org.apache.logging.log4j:log4j-api:2.7.classpath"/>
+    <path refid="library.maven:_org.apache.logging.log4j:log4j-core:2.7.classpath"/>
+  </path>
+  
+  <path id="demo-compiler.runtime.production.module.classpath">
+    <pathelement location="${demo-compiler.output.dir}"/>
+    <path refid="library.maven:_org.antlr:antlr4:4.6.classpath"/>
+    <path refid="library.maven:_org.antlr:antlr4-runtime:4.6.classpath"/>
+    <path refid="library.maven:_org.antlr:antlr-runtime:3.5.2.classpath"/>
+    <path refid="library.maven:_org.antlr:st4:4.0.8.classpath"/>
+    <path refid="library.maven:_org.abego.treelayout:org.abego.treelayout.core:1.0.3.classpath"/>
+    <path refid="library.maven:_org.glassfish:javax.json:1.0.4.classpath"/>
+    <path refid="library.maven:_com.google.guava:guava:20.0.classpath"/>
+    <path refid="library.maven:_commons-cli:commons-cli:1.3.1.classpath"/>
+    <path refid="library.maven:_org.slf4j:slf4j-api:1.7.22.classpath"/>
+    <path refid="library.maven:_org.apache.logging.log4j:log4j-slf4j-impl:2.7.classpath"/>
+    <path refid="library.maven:_org.apache.logging.log4j:log4j-api:2.7.classpath"/>
+    <path refid="library.maven:_org.apache.logging.log4j:log4j-core:2.7.classpath"/>
+  </path>
+  
+  <path id="demo-compiler.module.classpath">
+    <path refid="${module.jdk.classpath.demo-compiler}"/>
+    <pathelement location="${demo-compiler.output.dir}"/>
+    <path refid="library.maven:_org.antlr:antlr4:4.6.classpath"/>
+    <path refid="library.maven:_org.antlr:antlr4-runtime:4.6.classpath"/>
+    <path refid="library.maven:_org.antlr:antlr-runtime:3.5.2.classpath"/>
+    <path refid="library.maven:_org.antlr:st4:4.0.8.classpath"/>
+    <path refid="library.maven:_org.abego.treelayout:org.abego.treelayout.core:1.0.3.classpath"/>
+    <path refid="library.maven:_org.glassfish:javax.json:1.0.4.classpath"/>
+    <path refid="library.maven:_com.google.guava:guava:20.0.classpath"/>
+    <path refid="library.maven:_commons-cli:commons-cli:1.3.1.classpath"/>
+    <path refid="library.maven:_org.hamcrest:hamcrest-all:1.3.classpath"/>
+    <path refid="library.maven:_junit:junit:4.12.classpath"/>
+    <path refid="library.maven:_org.hamcrest:hamcrest-core:1.3.classpath"/>
+    <path refid="library.maven:_org.slf4j:slf4j-api:1.7.22.classpath"/>
+    <path refid="library.maven:_org.apache.logging.log4j:log4j-slf4j-impl:2.7.classpath"/>
+    <path refid="library.maven:_org.apache.logging.log4j:log4j-api:2.7.classpath"/>
+    <path refid="library.maven:_org.apache.logging.log4j:log4j-core:2.7.classpath"/>
+  </path>
+  
+  <path id="demo-compiler.runtime.module.classpath">
+    <pathelement location="${demo-compiler.testoutput.dir}"/>
+    <pathelement location="${demo-compiler.output.dir}"/>
+    <path refid="library.maven:_org.antlr:antlr4:4.6.classpath"/>
+    <path refid="library.maven:_org.antlr:antlr4-runtime:4.6.classpath"/>
+    <path refid="library.maven:_org.antlr:antlr-runtime:3.5.2.classpath"/>
+    <path refid="library.maven:_org.antlr:st4:4.0.8.classpath"/>
+    <path refid="library.maven:_org.abego.treelayout:org.abego.treelayout.core:1.0.3.classpath"/>
+    <path refid="library.maven:_org.glassfish:javax.json:1.0.4.classpath"/>
+    <path refid="library.maven:_com.google.guava:guava:20.0.classpath"/>
+    <path refid="library.maven:_commons-cli:commons-cli:1.3.1.classpath"/>
+    <path refid="library.maven:_org.hamcrest:hamcrest-all:1.3.classpath"/>
+    <path refid="library.maven:_junit:junit:4.12.classpath"/>
+    <path refid="library.maven:_org.hamcrest:hamcrest-core:1.3.classpath"/>
+    <path refid="library.maven:_org.slf4j:slf4j-api:1.7.22.classpath"/>
+    <path refid="library.maven:_org.apache.logging.log4j:log4j-slf4j-impl:2.7.classpath"/>
+    <path refid="library.maven:_org.apache.logging.log4j:log4j-api:2.7.classpath"/>
+    <path refid="library.maven:_org.apache.logging.log4j:log4j-core:2.7.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.demo-compiler">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.demo-compiler">
+    <patternset refid="excluded.from.module.demo-compiler"/>
+  </patternset>
+  
+  <path id="demo-compiler.module.sourcepath">
+    <dirset dir="${module.demo-compiler.basedir}">
+      <include name="src/main/java"/>
+      <include name="src/main/resources"/>
+      <include name="target/generated-sources/antlr4"/>
+    </dirset>
+  </path>
+  
+  <path id="demo-compiler.module.test.sourcepath">
+    <dirset dir="${module.demo-compiler.basedir}">
+      <include name="src/test/java"/>
+      <include name="src/test/resources"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.demo-compiler" depends="compile.module.demo-compiler.production,compile.module.demo-compiler.tests" description="Compile module demo-compiler"/>
+  
+  <target name="compile.module.demo-compiler.production" depends="register.custom.compilers" description="Compile module demo-compiler; production classes">
+    <mkdir dir="${demo-compiler.output.dir}"/>
+    <javac2 destdir="${demo-compiler.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.demo-compiler}/javac">
+      <compilerarg line="${compiler.args.demo-compiler}"/>
+      <bootclasspath refid="demo-compiler.module.bootclasspath"/>
+      <classpath refid="demo-compiler.module.production.classpath"/>
+      <src refid="demo-compiler.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.demo-compiler"/>
+    </javac2>
+    
+    <copy todir="${demo-compiler.output.dir}">
+      <fileset dir="${module.demo-compiler.basedir}/src/main/java">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.demo-compiler.basedir}/src/main/resources">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.demo-compiler.basedir}/target/generated-sources/antlr4">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.demo-compiler.tests" depends="register.custom.compilers,compile.module.demo-compiler.production" description="compile module demo-compiler; test classes" unless="skip.tests">
+    <mkdir dir="${demo-compiler.testoutput.dir}"/>
+    <javac2 destdir="${demo-compiler.testoutput.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.demo-compiler}/javac">
+      <compilerarg line="${compiler.args.demo-compiler}"/>
+      <bootclasspath refid="demo-compiler.module.bootclasspath"/>
+      <classpath refid="demo-compiler.module.classpath"/>
+      <src refid="demo-compiler.module.test.sourcepath"/>
+      <patternset refid="excluded.from.compilation.demo-compiler"/>
+    </javac2>
+    
+    <copy todir="${demo-compiler.testoutput.dir}">
+      <fileset dir="${module.demo-compiler.basedir}/src/test/java">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.demo-compiler.basedir}/src/test/resources">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="clean.module.demo-compiler" description="cleanup module">
+    <delete dir="${demo-compiler.output.dir}"/>
+    <delete dir="${demo-compiler.testoutput.dir}"/>
+  </target>
+</project>

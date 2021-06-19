@@ -1,0 +1,27 @@
+declare and retain
+	i as integer ;
+	j as integer ;
+	arena as square[27, 27];
+by default
+    do
+
+
+	set arena[5 , 5] to player
+	set arena[1, 20] to ennemi
+	set arena[4, 16] to zombie
+	set arena[3, 5] to zombie
+	set arena[12, 2] to radar
+	set arena[6, 15] to soda
+	set arena[26, 26] to graal
+    set arena[6, 8] to soda
+	set arena[9, 5] to fruits
+	set arena[8, 8] to map
+	set arena[1, 16] to radar
+	set arena[20, 20] to rock
+	set arena[17, 4] to rock
+	set arena[7, 16] to map
+	set arena[10, 15] to fruits
+	set arena[14, 25] to radar
+
+
+done

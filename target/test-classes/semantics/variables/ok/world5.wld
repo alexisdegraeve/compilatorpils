@@ -1,0 +1,34 @@
+/* My comments */
+declare and retain
+	i as integer ;
+	j as integer ;
+	b as boolean;
+	arena as square[27, 27];
+
+fct1 as function():boolean
+declare local
+   b as boolean;
+    do
+        set b to true
+      return b
+   done
+
+by default
+    do
+    set i to 0
+	set j to i
+    set b to fct1()
+
+	set arena[1 , 1] to player
+	set arena[12, 10] to ennemi
+	set arena[8, 12] to zombie
+	set arena[5, 5] to zombie
+	set arena[2, 16] to radar
+	set arena[16, 4] to soda
+	set arena[26, 26] to graal
+	set arena[1, 16] to radar
+	set arena[20, 20] to rock
+	set arena[17, 4] to rock
+	set arena[7, 16] to map
+
+done

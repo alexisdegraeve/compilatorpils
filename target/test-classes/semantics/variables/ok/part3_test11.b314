@@ -1,0 +1,36 @@
+
+declare and retain
+    import world3.wld
+    b as boolean;
+    i as integer;
+    j as integer;
+    s as square;
+when your turn
+by default
+    do
+        next shoot north
+        next shoot north
+        next shoot north
+        next shoot north
+        next shoot east
+        next shoot east
+        next shoot east
+        next shoot east
+        next shoot south
+        next shoot south
+        next shoot east
+        next shoot east
+
+        while j < 2 do
+            set j to 20
+            set j to j + 1
+            set j to j - 3
+            set j to j * 3
+            set j to j / 3
+        done
+
+        while j < 8 do
+             set j to j + 1
+        done
+
+    done

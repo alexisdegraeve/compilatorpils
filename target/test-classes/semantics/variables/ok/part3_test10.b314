@@ -1,0 +1,18 @@
+declare and retain
+    b as boolean;
+    i as integer;
+    s as square;
+when your turn
+by default
+    do
+        set b to true and false or true
+        set b to not false and 0 > 45 + 3
+        set b to graal is north or (b and nearby[1,1] = zombie)
+        set b to ennemi is north and not b
+
+
+
+ 		while i < 5 do
+ 			set i to i + 1
+ 		done
+    done

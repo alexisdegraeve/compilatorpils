@@ -1,0 +1,28 @@
+/* My comments */
+declare and retain
+
+    import world8.wld
+    b as boolean;
+    i as integer;
+    s as square;
+when your turn
+by default
+    do
+        while true and false or b or nearby[2, i + 1] = dirt  do
+        	skip skip skip
+        	while not (false and i < 5 or b) do
+        		while true and false do
+        			skip skip
+        		done
+	        	skip
+        	done
+        	compute b
+        	set b to true and false
+        	while not (false and i < 5 or b) do
+        		set i to i + 1 skip
+	       		while true and false  or nearby[2, i + 1] = dirt do
+	       			skip skip
+	       		done
+        	done
+        done
+    done

@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dd0e66c3-21c0-495d-8474-3910f3481f51" name="Default Changelist" comment="SEMANTIQUE PART III - SET VALUE">
+      <change beforePath="$PROJECT_DIR$/src/test/java/be/unamur/info/b314/compiler/main/B314variablesSemanticsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/be/unamur/info/b314/compiler/main/B314variablesSemanticsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/semantics/variables/ok/id_operationSetInteger.b314" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/semantics/variables/ok/id_operationSetInteger.b314" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/semantics/variables/ok/part3_test03.b314" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/semantics/variables/ok/part3_test03.b314" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/semantics/variables/ok/part3_test05.b314" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/semantics/variables/ok/part3_test05.b314" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/semantics/variables/ok/part3_test10.b314" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/semantics/variables/ok/part3_test10.b314" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/semantics/variables/ok/part3_test12.b314" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/semantics/variables/ok/part3_test12.b314" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/semantics/variables/ok/part3_test17.b314" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/semantics/variables/ok/part3_test17.b314" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/semantics/variables/ok/test_add_bool.b314" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/semantics/variables/ok/test_add_bool.b314" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/semantics/variables/ok/test_add_bool03.b314" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/semantics/variables/ok/test_add_bool03.b314" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/semantics/variables/ok/test_array_constant_value02.b314" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/semantics/variables/ok/test_array_constant_value02.b314" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/semantics/variables/ok/test_array_value10.b314" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/semantics/variables/ok/test_array_value10.b314" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/semantics/variables/ok/test_function_fact.b314" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/semantics/variables/ok/test_function_fact.b314" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/semantics/variables/ok/test_function_syntax.b314" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/semantics/variables/ok/test_function_syntax.b314" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/semantics/variables/ok/test_if_else_sub_if.b314" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/semantics/variables/ok/test_if_else_sub_if.b314" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/semantics/variables/ok/test_next_use_ammo.b314" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/semantics/variables/ok/test_next_use_ammo.b314" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/semantics/variables/ok/test_square_no_local_variable.b314" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/semantics/variables/ok/test_square_no_local_variable.b314" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/semantics/variables/ok/world.wld" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/semantics/variables/ok/world.wld" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/semantics/variables/ok/world2.wld" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/semantics/variables/ok/world2.wld" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="demo-compiler" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="1o4YDgdH3ysfAibQRuSxbrQ31rY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="demo-compiler" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/antlr4/imports/PlayPlusWords.g4" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\vdb\IdeaProjects\2021_IHDCB332_G01\src\main\antlr4\imports" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.B314variablesSemanticsTest.testvariables_id_operationAdd_ok">
+    <configuration name="B314commentsSyntaxTest.test_declare_and_retain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo-compiler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.unamur.info.b314.compiler.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.unamur.info.b314.compiler.main" />
+      <option name="MAIN_CLASS_NAME" value="be.unamur.info.b314.compiler.main.B314commentsSyntaxTest" />
+      <option name="METHOD_NAME" value="test_declare_and_retain" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="B314commentsSyntaxTest.test_import_file" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo-compiler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.unamur.info.b314.compiler.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.unamur.info.b314.compiler.main" />
+      <option name="MAIN_CLASS_NAME" value="be.unamur.info.b314.compiler.main.B314commentsSyntaxTest" />
+      <option name="METHOD_NAME" value="test_import_file" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="B314commentsSyntaxTest.test_programme_minimal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo-compiler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.unamur.info.b314.compiler.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.unamur.info.b314.compiler.main" />
+      <option name="MAIN_CLASS_NAME" value="be.unamur.info.b314.compiler.main.B314commentsSyntaxTest" />
+      <option name="METHOD_NAME" value="test_programme_minimal" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="B314variablesSemanticsTest.testvariables_id_operationAdd_mistake_ko" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo-compiler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.unamur.info.b314.compiler.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.unamur.info.b314.compiler.main" />
+      <option name="MAIN_CLASS_NAME" value="be.unamur.info.b314.compiler.main.B314variablesSemanticsTest" />
+      <option name="METHOD_NAME" value="testvariables_id_operationAdd_mistake_ko" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="B314variablesSemanticsTest.testvariables_id_operationAdd_ok" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="demo-compiler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="be.unamur.info.b314.compiler.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="be.unamur.info.b314.compiler.main" />
+      <option name="MAIN_CLASS_NAME" value="be.unamur.info.b314.compiler.main.B314variablesSemanticsTest" />
+      <option name="METHOD_NAME" value="testvariables_id_operationAdd_ok" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.B314variablesSemanticsTest.testvariables_id_operationAdd_ok" />
+        <item itemvalue="JUnit.B314commentsSyntaxTest.test_programme_minimal" />
+        <item itemvalue="JUnit.B314variablesSemanticsTest.testvariables_id_operationAdd_mistake_ko" />
+        <item itemvalue="JUnit.B314commentsSyntaxTest.test_declare_and_retain" />
+        <item itemvalue="JUnit.B314commentsSyntaxTest.test_import_file" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dd0e66c3-21c0-495d-8474-3910f3481f51" name="Default Changelist" comment="" />
+      <created>1612547211196</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612547211196</updated>
+    </task>
+    <task id="LOCAL-00146" summary="SEMANTIQUE PART III - Checking MAP if no world file">
+      <created>1619288370391</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1619288370391</updated>
+    </task>
+    <task id="LOCAL-00147" summary="SEMANTIQUE PART III - NO WORLD FILE EXCEPTION">
+      <created>1619288871307</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1619288871307</updated>
+    </task>
+    <task id="LOCAL-00148" summary="SEMANTIQUE PART III - Fixing Arena found checking map">
+      <created>1619289395852</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1619289395852</updated>
+    </task>
+    <task id="LOCAL-00149" summary="SEMANTIQUE PART III - CHECKING NO ZOMBIE">
+      <created>1619290183285</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1619290183285</updated>
+    </task>
+    <task id="LOCAL-00150" summary="SEMANTIQUE PART III - NO ZOMBIE FOUND">
+      <created>1619290496127</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1619290496127</updated>
+    </task>
+    <task id="LOCAL-00151" summary="SEMANTIQUE PART III - REMOVE CHECKING ZOMBIE">
+      <created>1619290739003</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1619290739003</updated>
+    </task>
+    <task id="LOCAL-00152" summary="SEMANTIQUE PART III - No checking if no import file">
+      <created>1619291044581</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1619291044581</updated>
+    </task>
+    <task id="LOCAL-00153" summary="SEMANTIQUE PART III - Checking wld file">
+      <created>1619291827334</created>
+      <option name="number" value="00153" />
+      <option name="presentableId" value="LOCAL-00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1619291827335</updated>
+    </task>
+    <task id="LOCAL-00154" summary="SEMANTIQUE PART III - checkingMapArena if arena">
+      <created>1619292074158</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1619292074158</updated>
+    </task>
+    <task id="LOCAL-00155" summary="SEMANTIQUE PART III - ERROR NO ZOMBIE">
+      <created>1619292189151</created>
+      <option name="number" value="00155" />
+      <option name="presentableId" value="LOCAL-00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1619292189151</updated>
+    </task>
+    <task id="LOCAL-00156" summary="SEMANTIQUE PART III - NO RADAR and NO MAP checking">
+      <created>1619292389615</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1619292389615</updated>
+    </task>
+    <task id="LOCAL-00157" summary="SEMANTIQUE PART III - REMOVE RADAR EXCEPTION">
+      <created>1619292570521</created>
+      <option name="number" value="00157" />
+      <option name="presentableId" value="LOCAL-00157" />
+      <option name="project" value="LOCAL" />
+      <updated>1619292570521</updated>
+    </task>
+    <task id="LOCAL-00158" summary="SEMANTIQUE PART III - REMOVE COUNT MAP EXCEPTION">
+      <created>1619292669608</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1619292669608</updated>
+    </task>
+    <task id="LOCAL-00159" summary="SEMANTIQUE PART III - Skip file not existing">
+      <created>1619293446511</created>
+      <option name="number" value="00159" />
+      <option name="presentableId" value="LOCAL-00159" />
+      <option name="project" value="LOCAL" />
+      <updated>1619293446511</updated>
+    </task>
+    <task id="LOCAL-00160" summary="SEMANTIQUE PART III - UPDATE CODE">
+      <created>1619296016152</created>
+      <option name="number" value="00160" />
+      <option name="presentableId" value="LOCAL-00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1619296016152</updated>
+    </task>
+    <task id="LOCAL-00161" summary="SEMANTIQUE PART III - FIX TEST EQUAL AND ALSO FIX STACKVALEURDOUBLE">
+      <created>1619377688663</created>
+      <option name="number" value="00161" />
+      <option name="presentableId" value="LOCAL-00161" />
+      <option name="project" value="LOCAL" />
+      <updated>1619377688664</updated>
+    </task>
+    <task id="LOCAL-00162" summary="SEMANTIQUE PART III - FIX DOUBLE VALUE">
+      <created>1619378667938</created>
+      <option name="number" value="00162" />
+      <option name="presentableId" value="LOCAL-00162" />
+      <option name="project" value="LOCAL" />
+      <updated>1619378667938</updated>
+    </task>
+    <task id="LOCAL-00163" summary="SEMANTIQUE PART III - FIX Stack boolean using comparator value">
+      <created>1619379340680</created>
+      <option name="number" value="00163" />
+      <option name="presentableId" value="LOCAL-00163" />
+      <option name="project" value="LOCAL" />
+      <updated>1619379340680</updated>
+    </task>
+    <task id="LOCAL-00164" summary="SEMANTIQUE PART III - FIX BOOLEAN STACK">
+      <created>1619379901482</created>
+      <option name="number" value="00164" />
+      <option name="presentableId" value="LOCAL-00164" />
+      <option name="project" value="LOCAL" />
+      <updated>1619379901482</updated>
+    </task>
+    <task id="LOCAL-00165" summary="SEMANTIQUE PART III - ADD Checking MAP">
+      <created>1619502159108</created>
+      <option name="number" value="00165" />
+      <option name="presentableId" value="LOCAL-00165" />
+      <option name="project" value="LOCAL" />
+      <updated>1619502159109</updated>
+    </task>
+    <task id="LOCAL-00166" summary="SEMANTIQUE PART III - REGROUP DSEG FOR NBC ADD ARRAY ALSO">
+      <created>1619559939221</created>
+      <option name="number" value="00166" />
+      <option name="presentableId" value="LOCAL-00166" />
+      <option name="project" value="LOCAL" />
+      <updated>1619559939222</updated>
+    </task>
+    <task id="LOCAL-00167" summary="SEMANTIQUE PART III - WHILE Instruction NBC">
+      <created>1619596366807</created>
+      <option name="number" value="00167" />
+      <option name="presentableId" value="LOCAL-00167" />
+      <option name="project" value="LOCAL" />
+      <updated>1619596366808</updated>
+    </task>
+    <task id="LOCAL-00168" summary="SEMANTIQUE PART III - ADD MUL, SUB, DIVIDE TO NBC">
+      <created>1619600186388</created>
+      <option name="number" value="00168" />
+      <option name="presentableId" value="LOCAL-00168" />
+      <option name="project" value="LOCAL" />
+      <updated>1619600186388</updated>
+    </task>
+    <task id="LOCAL-00169" summary="SEMANTIQUE PART III - Fixing vistor casting">
+      <created>1619600788068</created>
+      <option name="number" value="00169" />
+      <option name="presentableId" value="LOCAL-00169" />
+      <option name="project" value="LOCAL" />
+      <updated>1619600788069</updated>
+    </task>
+    <task id="LOCAL-00170" summary="ADG - SEMANTIQUE PART III - While initialize variable before while">
+      <created>1619970277785</created>
+      <option name="number" value="00170" />
+      <option name="presentableId" value="LOCAL-00170" />
+      <option name="project" value="LOCAL" />
+      <updated>1619970277786</updated>
+    </task>
+    <task id="LOCAL-00171" summary="ADG - SEMANTIQUE PART III - ADD Function value for NBC">
+      <created>1619973661004</created>
+      <option name="number" value="00171" />
+      <option name="presentableId" value="LOCAL-00171" />
+      <option name="project" value="LOCAL" />
+      <updated>1619973661004</updated>
+    </task>
+    <task id="LOCAL-00172" summary="SEMANTIQUE PART III - NBC WRITE Array of vector (intger / boolean)">
+      <created>1619978847791</created>
+      <option name="number" value="00172" />
+      <option name="presentableId" value="LOCAL-00172" />
+      <option name="project" value="LOCAL" />
+      <updated>1619978847791</updated>
+    </task>
+    <task id="LOCAL-00173" summary="SEMANTIQUE PART III - FIX getvaleur">
+      <created>1619979434750</created>
+      <option name="number" value="00173" />
+      <option name="presentableId" value="LOCAL-00173" />
+      <option name="project" value="LOCAL" />
+      <updated>1619979434750</updated>
+    </task>
+    <task id="LOCAL-00174" summary="SEMANTIQUE PART III - FIX">
+      <created>1619979565939</created>
+      <option name="number" value="00174" />
+      <option name="presentableId" value="LOCAL-00174" />
+      <option name="project" value="LOCAL" />
+      <updated>1619979565939</updated>
+    </task>
+    <task id="LOCAL-00175" summary="SEMANTIQUE PART III - FIX">
+      <created>1619979789333</created>
+      <option name="number" value="00175" />
+      <option name="presentableId" value="LOCAL-00175" />
+      <option name="project" value="LOCAL" />
+      <updated>1619979789333</updated>
+    </task>
+    <task id="LOCAL-00176" summary="SEMANTIQUE PART III - NBC write array">
+      <created>1619980033177</created>
+      <option name="number" value="00176" />
+      <option name="presentableId" value="LOCAL-00176" />
+      <option name="project" value="LOCAL" />
+      <updated>1619980033177</updated>
+    </task>
+    <task id="LOCAL-00177" summary="SEMANTIQUE PART III - Comment write NBC function">
+      <created>1619980438103</created>
+      <option name="number" value="00177" />
+      <option name="presentableId" value="LOCAL-00177" />
+      <option name="project" value="LOCAL" />
+      <updated>1619980438103</updated>
+    </task>
+    <task id="LOCAL-00178" summary="SEMANTIQUE PART III - COMMENT">
+      <created>1619980558204</created>
+      <option name="number" value="00178" />
+      <option name="presentableId" value="LOCAL-00178" />
+      <option name="project" value="LOCAL" />
+      <updated>1619980558204</updated>
+    </task>
+    <task id="LOCAL-00179" summary="SEMANTIQUE PART III - FIX">
+      <created>1619980783180</created>
+      <option name="number" value="00179" />
+      <option name="presentableId" value="LOCAL-00179" />
+      <option name="project" value="LOCAL" />
+      <updated>1619980783180</updated>
+    </task>
+    <task id="LOCAL-00180" summary="SEMANTIQUE PART III - FIX">
+      <created>1619980905086</created>
+      <option name="number" value="00180" />
+      <option name="presentableId" value="LOCAL-00180" />
+      <option name="project" value="LOCAL" />
+      <updated>1619980905086</updated>
+    </task>
+    <task id="LOCAL-00181" summary="SEMANTIQUE PART III - COMMENT NBC WRITE ARRAY">
+      <created>1619980999811</created>
+      <option name="number" value="00181" />
+      <option name="presentableId" value="LOCAL-00181" />
+      <option name="project" value="LOCAL" />
+      <updated>1619980999811</updated>
+    </task>
+    <task id="LOCAL-00182" summary="SEMANTIQUE PART III - NBC ARRAY DOUBLE">
+      <created>1620232823227</created>
+      <option name="number" value="00182" />
+      <option name="presentableId" value="LOCAL-00182" />
+      <option name="project" value="LOCAL" />
+      <updated>1620232823228</updated>
+    </task>
+    <task id="LOCAL-00183" summary="SEMANTIQUE PART III - COMMENT NBC ARRAY DOUBLE">
+      <created>1620233766949</created>
+      <option name="number" value="00183" />
+      <option name="presentableId" value="LOCAL-00183" />
+      <option name="project" value="LOCAL" />
+      <updated>1620233766949</updated>
+    </task>
+    <task id="LOCAL-00184" summary="SEMANTIQUE PART III - FIXING Syntax NBC">
+      <created>1620296476932</created>
+      <option name="number" value="00184" />
+      <option name="presentableId" value="LOCAL-00184" />
+      <option name="project" value="LOCAL" />
+      <updated>1620296476933</updated>
+    </task>
+    <task id="LOCAL-00185" summary="SEMANTIQUE PART III - FIXING BOOLEAN NBC">
+      <created>1620297288094</created>
+      <option name="number" value="00185" />
+      <option name="presentableId" value="LOCAL-00185" />
+      <option name="project" value="LOCAL" />
+      <updated>1620297288094</updated>
+    </task>
+    <task id="LOCAL-00186" summary="SEMANTIQUE PART III - NBC VISITOR WRITING ARRAY AND CONSTANT">
+      <created>1620305414253</created>
+      <option name="number" value="00186" />
+      <option name="presentableId" value="LOCAL-00186" />
+      <option name="project" value="LOCAL" />
+      <updated>1620305414253</updated>
+    </task>
+    <task id="LOCAL-00187" summary="SEMANTIQUE PART III - FIXING TEST">
+      <created>1620305783726</created>
+      <option name="number" value="00187" />
+      <option name="presentableId" value="LOCAL-00187" />
+      <option name="project" value="LOCAL" />
+      <updated>1620305783726</updated>
+    </task>
+    <task id="LOCAL-00188" summary="SEMANTIQUE PART III - Fixing Boolean value in array NBC">
+      <created>1620306208029</created>
+      <option name="number" value="00188" />
+      <option name="presentableId" value="LOCAL-00188" />
+      <option name="project" value="LOCAL" />
+      <updated>1620306208029</updated>
+    </task>
+    <task id="LOCAL-00189" summary="SEMANTIQUE PART III - FIXING ARRAY NBC">
+      <created>1620306565651</created>
+      <option name="number" value="00189" />
+      <option name="presentableId" value="LOCAL-00189" />
+      <option name="project" value="LOCAL" />
+      <updated>1620306565651</updated>
+    </task>
+    <task id="LOCAL-00190" summary="SEMANTIQUE PART III - ESCAPE DECLARATION FUNCTION NBC">
+      <created>1620307650184</created>
+      <option name="number" value="00190" />
+      <option name="presentableId" value="LOCAL-00190" />
+      <option name="project" value="LOCAL" />
+      <updated>1620307650184</updated>
+    </task>
+    <task id="LOCAL-00191" summary="SEMANTIQUE PART III - Declarate variable before loop NBC">
+      <created>1620308226361</created>
+      <option name="number" value="00191" />
+      <option name="presentableId" value="LOCAL-00191" />
+      <option name="project" value="LOCAL" />
+      <updated>1620308226361</updated>
+    </task>
+    <task id="LOCAL-00192" summary="SEMANTIQUE PART III - EVALUATE WHILE ONLY IF ITS GOOD NBC">
+      <created>1620308967785</created>
+      <option name="number" value="00192" />
+      <option name="presentableId" value="LOCAL-00192" />
+      <option name="project" value="LOCAL" />
+      <updated>1620308967785</updated>
+    </task>
+    <task id="LOCAL-00193" summary="SEMANTIQUE PART III - EVALUATE ARRAY NBC">
+      <created>1620309109617</created>
+      <option name="number" value="00193" />
+      <option name="presentableId" value="LOCAL-00193" />
+      <option name="project" value="LOCAL" />
+      <updated>1620309109617</updated>
+    </task>
+    <task id="LOCAL-00194" summary="SEMANTIQUE PART III - FIXING ARRAY NBC">
+      <created>1620309700418</created>
+      <option name="number" value="00194" />
+      <option name="presentableId" value="LOCAL-00194" />
+      <option name="project" value="LOCAL" />
+      <updated>1620309700418</updated>
+    </task>
+    <option name="localTasksCounter" value="195" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="SEMANTIQUE PART III - REGROUP DSEG FOR NBC ADD ARRAY ALSO" />
+    <MESSAGE value="SEMANTIQUE PART III - WHILE Instruction NBC" />
+    <MESSAGE value="SEMANTIQUE PART III - ADD MUL, SUB, DIVIDE TO NBC" />
+    <MESSAGE value="SEMANTIQUE PART III - Fixing vistor casting" />
+    <MESSAGE value="ADG - SEMANTIQUE PART III - While initialize variable before while" />
+    <MESSAGE value="ADG - SEMANTIQUE PART III - ADD Function value for NBC" />
+    <MESSAGE value="SEMANTIQUE PART III - NBC WRITE Array of vector (intger / boolean)" />
+    <MESSAGE value="SEMANTIQUE PART III - FIX getvaleur" />
+    <MESSAGE value="SEMANTIQUE PART III - NBC write array" />
+    <MESSAGE value="SEMANTIQUE PART III - Comment write NBC function" />
+    <MESSAGE value="SEMANTIQUE PART III - COMMENT" />
+    <MESSAGE value="SEMANTIQUE PART III - FIX" />
+    <MESSAGE value="SEMANTIQUE PART III - COMMENT NBC WRITE ARRAY" />
+    <MESSAGE value="SEMANTIQUE PART III - NBC ARRAY DOUBLE" />
+    <MESSAGE value="SEMANTIQUE PART III - COMMENT NBC ARRAY DOUBLE" />
+    <MESSAGE value="SEMANTIQUE PART III - FIXING Syntax NBC" />
+    <MESSAGE value="SEMANTIQUE PART III - FIXING BOOLEAN NBC" />
+    <MESSAGE value="SEMANTIQUE PART III - NBC VISITOR WRITING ARRAY AND CONSTANT" />
+    <MESSAGE value="SEMANTIQUE PART III - FIXING TEST" />
+    <MESSAGE value="SEMANTIQUE PART III - Fixing Boolean value in array NBC" />
+    <MESSAGE value="SEMANTIQUE PART III - ESCAPE DECLARATION FUNCTION NBC" />
+    <MESSAGE value="SEMANTIQUE PART III - Declarate variable before loop NBC" />
+    <MESSAGE value="SEMANTIQUE PART III - EVALUATE WHILE ONLY IF ITS GOOD NBC" />
+    <MESSAGE value="SEMANTIQUE PART III - EVALUATE ARRAY NBC" />
+    <MESSAGE value="SEMANTIQUE PART III - FIXING ARRAY NBC" />
+    <option name="LAST_COMMIT_MESSAGE" value="SEMANTIQUE PART III - FIXING ARRAY NBC" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/be/unamur/info/b314/compiler/SymTableFiller.java</url>
+          <line>324</line>
+          <option name="timeStamp" value="359" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/be/unamur/info/b314/compiler/NBCPrinter.java</url>
+          <line>105</line>
+          <option name="timeStamp" value="384" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/be/unamur/info/b314/compiler/NBCVisitor.java</url>
+          <line>417</line>
+          <option name="timeStamp" value="389" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/be/unamur/info/b314/compiler/NBCVisitor.java</url>
+          <line>502</line>
+          <option name="timeStamp" value="399" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/be/unamur/info/b314/compiler/NBCVisitor.java</url>
+          <line>492</line>
+          <option name="timeStamp" value="400" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/be/unamur/info/b314/compiler/NBCVisitor.java</url>
+          <line>484</line>
+          <option name="timeStamp" value="401" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/be/unamur/info/b314/compiler/NBCVisitor.java</url>
+          <line>485</line>
+          <option name="timeStamp" value="402" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/be/unamur/info/b314/compiler/NBCVisitor.java</url>
+          <line>486</line>
+          <option name="timeStamp" value="403" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/be/unamur/info/b314/compiler/NBCVisitor.java</url>
+          <line>259</line>
+          <option name="timeStamp" value="405" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/be/unamur/info/b314/compiler/NBCVisitor.java</url>
+          <line>260</line>
+          <option name="timeStamp" value="406" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/be/unamur/info/b314/compiler/NBCVisitor.java</url>
+          <line>262</line>
+          <option name="timeStamp" value="407" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/be/unamur/info/b314/compiler/NBCVisitor.java</url>
+          <line>265</line>
+          <option name="timeStamp" value="408" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/be/unamur/info/b314/compiler/NBCVisitor.java</url>
+          <line>263</line>
+          <option name="timeStamp" value="409" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/be/unamur/info/b314/compiler/NBCVisitor.java</url>
+          <line>261</line>
+          <option name="timeStamp" value="410" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/be/unamur/info/b314/compiler/NBCVisitor.java</url>
+          <line>551</line>
+          <option name="timeStamp" value="417" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/be/unamur/info/b314/compiler/NBCVisitor.java</url>
+          <line>547</line>
+          <option name="timeStamp" value="421" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/be/unamur/info/b314/compiler/NBCVisitor.java</url>
+          <line>549</line>
+          <option name="timeStamp" value="422" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/be/unamur/info/b314/compiler/NBCVisitor.java</url>
+          <line>406</line>
+          <option name="timeStamp" value="431" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/be/unamur/info/b314/compiler/NBCVisitor.java</url>
+          <line>400</line>
+          <option name="timeStamp" value="432" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/be/unamur/info/b314/compiler/NBCVisitor.java</url>
+          <line>183</line>
+          <option name="timeStamp" value="433" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/be/unamur/info/b314/compiler/NBCPrinter.java</url>
+          <line>216</line>
+          <option name="timeStamp" value="434" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/be/unamur/info/b314/compiler/NBCPrinter.java</url>
+          <line>215</line>
+          <option name="timeStamp" value="435" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/be/unamur/info/b314/compiler/NBCVisitor.java</url>
+          <line>377</line>
+          <option name="timeStamp" value="443" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/be/unamur/info/b314/compiler/NBCVisitor.java</url>
+          <line>376</line>
+          <option name="timeStamp" value="444" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/be/unamur/info/b314/compiler/NBCVisitor.java</url>
+          <line>378</line>
+          <option name="timeStamp" value="445" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="ctx.exprD()" language="JAVA" />
+        <watch expression="ctx.ID()" language="JAVA" />
+        <watch expression="ctx.exprD().getText()" language="JAVA" />
+        <watch expression="exprd.exprD()" language="JAVA" />
+        <watch expression="exprd.exprD(0)" language="JAVA" />
+        <watch expression="exprd.exprD(0).getText()" language="JAVA" />
+        <watch expression="exprd.exprD(1).getText()" language="JAVA" />
+        <watch expression="this.symTable.get(id).getValeur()" language="JAVA" />
+        <watch expression="this.symTable.get(id)" language="JAVA" />
+        <watch expression="this.symTable.get(id).getValueReturn()" language="JAVA" />
+        <watch expression="ctx.ID().getText()" language="JAVA" />
+        <watch expression="ctx.exprD(0)" language="JAVA" />
+        <watch expression="ctx.exprD(0).getText()" language="JAVA" />
+        <watch expression="ctx.exprD(1)" language="JAVA" />
+        <watch expression="instr.exprG()" language="JAVA" />
+        <watch expression="instr" language="JAVA" />
+        <watch expression="ctx.exprD(0).getText()" language="JAVA" />
+        <watch expression="this.symTable.get(variableNameVisited)" language="JAVA" />
+        <watch expression="ctx.getParent()" language="JAVA" />
+        <watch expression="ctx.getParent().getText()" language="JAVA" />
+        <watch expression="ctx.getText()" language="JAVA" />
+        <watch expression="ctx.getText()" language="JAVA" />
+        <watch expression="ctx.exprD()" language="JAVA" />
+        <watch expression="ctx.exprD().getText()" language="JAVA" />
+        <watch expression="ctx.exprD(1)" language="JAVA" />
+        <watch expression="ctx.exprD(1).getText()" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

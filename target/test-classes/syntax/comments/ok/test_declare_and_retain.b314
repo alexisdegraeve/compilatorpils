@@ -1,0 +1,5 @@
+declare and retain
+  t as boolean;
+  u as integer;
+  arena as array integer scalar[27]
+

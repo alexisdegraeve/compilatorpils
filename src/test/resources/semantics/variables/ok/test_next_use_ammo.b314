@@ -1,0 +1,10 @@
+/* My comments */
+declare and retain
+    b as boolean;
+    i as integer;
+    s as square;
+when your turn
+by default
+    do
+        next use fruits
+    done

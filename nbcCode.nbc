@@ -1,0 +1,54 @@
+#include "NXTDefs.h" 
+#define ROT_DEG 300
+#define FWD_DEG 500
+#define SPEED 50
+#define WAIT 100
+#define NEAR 20
+
+dseg segment
+   b byte
+   i word
+   j word
+   s word
+   t3 word[][]
+dseg ends
+thread main
+set  i, 0 
+set  j, 0 
+
+dseg segment
+     loopCount1 byte
+dsseg ends
+set loopCount1,5
+DoLoop1:
+
+dseg segment
+     loopCount2 byte
+dsseg ends
+set loopCount2,5
+DoLoop2:
+add  j, j, 1 
+sub loopCount2,loopCount2,1
+brtst GT, DoLoop2, loopCount2
+add  i, i, 1 
+set  i, 0 
+set  j, 0 
+
+dseg segment
+     loopCount3 byte
+dsseg ends
+set loopCount3,5
+DoLoop3:
+
+dseg segment
+     loopCount4 byte
+dsseg ends
+set loopCount4,5
+DoLoop4:
+add  j, j, 1 
+sub loopCount4,loopCount4,1
+brtst GT, DoLoop4, loopCount4
+add  i, i, 1 
+
+endt
+

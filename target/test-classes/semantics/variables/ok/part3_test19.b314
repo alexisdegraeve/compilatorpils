@@ -1,0 +1,13 @@
+declare and retain
+    b as boolean[42];
+    b2 as boolean[42,42];
+    i as integer;
+    s as square;
+when your turn
+by default
+    do
+        set b[0] to true and false or true
+        set b2[0,i+41] to not false and 0 > 45 + 3 or s = player
+        set b[0] to graal is north or (b2[0,0] and nearby[1,1] = zombie)
+        set b[0] to ennemi is north and not b[0]
+    done

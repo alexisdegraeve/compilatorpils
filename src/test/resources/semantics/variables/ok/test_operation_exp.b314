@@ -1,0 +1,11 @@
+declare and retain
+    x as integer;
+    y as square;
+when your turn
+by default
+    do
+        compute not x < 5
+        compute x = 2 and ennemi is north
+        compute not graal is south or ennemi is north and x > 42
+        compute nearby[2, 2] = ammo and y = map and not x < 5
+    done

@@ -1,0 +1,17 @@
+/* My comments */
+declare and retain
+   f1 as integer;
+    fct1 as function():integer
+    	do
+    		set f1 to 42
+
+    	return f1
+    	done
+when your turn
+by default
+    do
+    	if not fct1() = 42 then
+    		next move west
+    	done
+    	next do nothing
+    done

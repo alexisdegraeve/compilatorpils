@@ -1,0 +1,21 @@
+/*
+
+0
+
+0,0,0
+
+0,0,0,0,0
+*/
+declare and retain
+    v1 as boolean[0];
+    s as square;
+    v2 as boolean[5, 7];
+    v3 as integer[2, 3];
+    v4 as integer[5]; i as integer;
+    v5 as square[5, 7];  b as boolean;
+    v6 as square[5, 2];
+when your turn
+by default
+    do
+     set v1[0] to 1
+     done

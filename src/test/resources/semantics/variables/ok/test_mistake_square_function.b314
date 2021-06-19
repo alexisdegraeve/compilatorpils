@@ -1,0 +1,23 @@
+/*
+
+0
+
+0,0,0
+
+0,0,0,0,0
+*/
+declare and retain
+    f1 as integer;
+    fct1 as function():square
+    	do
+    		set f1 to 5 + 1
+    	return f1
+    	done
+when your turn
+by default
+    do
+    	if not fct1() = 5 then
+    		next move west
+    	done
+    	next do nothing
+    done

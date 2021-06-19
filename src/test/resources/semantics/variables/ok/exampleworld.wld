@@ -1,0 +1,23 @@
+/* WORLD */
+declare and retain
+	arena as square[27, 27];
+by default do
+	set arena[6, 8] to soda
+	set arena[9, 5] to fruits
+	set arena[8, 8] to map
+	set arena[1, 16] to radio
+	set arena[20, 20] to rock
+	set arena[17, 4] to rock
+	set arena[7, 16] to map
+	set arena[10, 15] to fruits
+	set arena[14, 25] to radio
+	set arena[1 , 1] to player
+    	set arena[12, 10] to ennemi
+    	set arena[8, 12] to zombie
+    	set arena[5, 5] to zombie
+    	set arena[2, 16] to radio
+    	set arena[16, 4] to soda
+    	set arena[26, 26] to graal
+    	set arena[12, 4] to rock
+
+done

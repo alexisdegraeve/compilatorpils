@@ -1,0 +1,10 @@
+/* My comments */
+declare and retain
+    x as integer;
+when your turn
+by default
+    do
+
+        compute life / 2 * (longitude / grid size)
+
+    done

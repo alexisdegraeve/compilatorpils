@@ -1,0 +1,17 @@
+/*
+
+0
+
+0,0,0
+
+0,0,0,0,0
+*/
+declare and retain
+    myVar98 as boolean;
+when your turn
+by default
+    do
+     set myVar98 to true
+     set myVar98 to false
+     set myVar98 to 5
+     done

@@ -1,0 +1,11 @@
+declare and retain
+    x as integer;
+    b as boolean;
+    y as boolean[5];
+when your turn
+by default
+    do
+        compute not b and x > 42
+        set y[0] to true
+        set y[1] to 2
+    done

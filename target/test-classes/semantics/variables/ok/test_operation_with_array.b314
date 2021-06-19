@@ -1,0 +1,13 @@
+/* My comments */
+declare and retain
+    x as integer;
+    t4 as integer[42];
+    t5 as integer[42, 42];
+    t6 as integer[42, 42];
+when your turn
+by default
+    do
+
+        compute x % (t6[0, t5[0, t4[0]]] + 2)
+
+    done

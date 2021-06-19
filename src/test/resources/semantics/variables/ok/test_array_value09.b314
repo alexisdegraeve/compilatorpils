@@ -1,0 +1,18 @@
+/*
+
+0
+
+0,0,0
+
+0,0,0,0,0
+*/
+declare and retain
+    b as boolean;
+    i as integer;
+    s as square;
+when your turn
+by default
+    do
+        set i to 0 + 42 * 1
+
+    done

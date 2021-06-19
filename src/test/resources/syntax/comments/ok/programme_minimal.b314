@@ -1,0 +1,5 @@
+declare and retain
+   v1 as square[27,27];
+   by default
+   declare local t as integer;
+   do set t to 5 done

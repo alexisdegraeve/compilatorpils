@@ -1,0 +1,14 @@
+/* Carte de Jeu */
+/* Exemple */
+declare and retain
+
+ arena as square[15, 15];
+ i as integer;
+
+by default do
+
+ set arena[1,10] to ennemi
+ set arena[4, 7] to map
+
+
+ done

@@ -1,0 +1,29 @@
+/*
+
+0
+
+0,0,0
+
+0,0,0,0,0
+*/
+declare and retain
+    b as boolean;
+    i as integer;
+    l as integer;
+    s as square;
+    t1 as boolean[5];
+    t2 as integer[6];
+    t3 as square[3];
+when your turn
+by default
+    do
+		set b to true
+		set b to true and (not b)
+		compute b or true
+        if b then
+        	next move west
+        else
+            set l to 100
+        done
+        next move west
+    done

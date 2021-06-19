@@ -1,0 +1,9 @@
+/* Carte de Jeu */
+/* Exemple */
+declare and retain
+ i as boolean;
+ x as integer;
+by default do
+ set x to 50
+ set i to false or (2 > 1)
+done

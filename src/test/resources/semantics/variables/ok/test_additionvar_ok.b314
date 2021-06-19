@@ -1,0 +1,18 @@
+/* Exemple addition */
+ declare and retain
+     f1 as integer;
+     fct1 as function(): integer
+     declare local
+        f2 as integer;
+     do
+       set f2 to ((5+2) * 8)
+       return f2
+     done
+ when your turn
+      by default
+      do
+        if not fct1()  then
+          next  move west
+        done
+      next do nothing
+      done

@@ -1,0 +1,23 @@
+declare and retain
+    import world4.wld
+    b as boolean;
+    i as integer;
+    s as square;
+when your turn
+by default
+    do
+        set b to false
+        set i to 10
+        next shoot north
+        next shoot north
+        next shoot north
+        next shoot north
+        next shoot east
+        next shoot east
+        next shoot east
+        next shoot east
+        next shoot south
+        next shoot south
+        next shoot east
+        next shoot east
+    done

@@ -1,0 +1,23 @@
+/* My comments */
+declare and retain
+    b as boolean;
+    i as integer[44];
+    i2 as integer[44,44];
+    s as square;
+when your turn
+by default
+    do
+        set i[0] to 0
+        set i[i[0]] to 42
+        set i[i[0] + 1] to -34
+        set i[i[0] + 1] to latitude
+        set i[i[0] + 1] to longitude
+        set i[i[0] + 1] to grid size
+        set i[i[0] + 1] to life
+        set i[i[0] + 1] to map count
+        set i[i[0] + 1] to radio count
+        set i[i[0] + 1] to ammo count
+        set i[i[0] + 1] to fruits count
+        set i[i[0] + 1] to soda count
+        set i2[i[0] + 1, 1 + 5] to soda count
+    done

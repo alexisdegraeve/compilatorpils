@@ -1,0 +1,61 @@
+/* My comments */
+declare and retain
+	b1 as boolean;
+	b2 as boolean;
+	b3 as boolean;
+	f1 as square;
+    i1 as integer;
+    v2 as boolean[5, 7];
+    v3 as integer[42, 58];
+    v4 as integer[42];
+	b4 as boolean;
+	b5 as boolean;
+	s1 as square;
+	i2 as integer;
+	b6 as boolean;
+    i3 as integer;
+    s2 as square;
+    f4 as square;
+    x as integer;
+
+set b2 to v4[x + 2] + 4
+    fct1 as function(x as integer):square
+    	do
+    		compute x + 1
+    		set x to x + 1 % longitude + grid size - i1
+    		set f1 to s2
+    	return f1
+    	done
+    fct2 as function(x as integer, y as boolean):integer
+    	do
+    		skip
+    	return x
+    	done
+    f3 as boolean;
+    fct3 as function():boolean
+    	do
+    		set f3 to true and false or not graal is north or b1 and b2 or v2[0, (i3+1-2*8)*0]
+    	return f3
+    	done
+
+    fct4 as function():square
+    	do
+    		skip
+    	return f4
+    	done
+    fct5 as function(x as integer, y as boolean, z as square):integer
+    	do
+    		if y and x = 2 then
+    			while x < i3 do
+    				set x to x + 1
+    			done
+    		else
+    			if z = ammo then
+    				next do nothing
+    			done
+    		done
+    	return x
+    	done
+when your turn
+by default
+    do skip done

@@ -1,0 +1,11 @@
+/* My comments */
+declare and retain
+    fct1 as function():void
+    	do
+    		skip
+    	return void
+    	done
+when your turn
+by default
+    do compute fct1()
+ done

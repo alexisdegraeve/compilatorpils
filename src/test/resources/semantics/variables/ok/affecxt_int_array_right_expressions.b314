@@ -1,0 +1,20 @@
+/*
+
+0
+
+0,0,0
+
+0,0,0,0,0
+*/
+declare and retain
+    b as boolean;
+    i as integer[5];
+    i2 as integer[5, 3];
+    s as square;
+when your turn
+by default
+    do
+        set i[0] to 0 + 3 * 1
+        set i[i[0] + 1] to 41 + latitude % 2
+        set i[i[0] + 1] to (-34 - 2) * grid size - i[i[0] + 1]
+    done

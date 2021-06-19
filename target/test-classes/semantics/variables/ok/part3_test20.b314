@@ -1,0 +1,64 @@
+declare and retain
+import world6.wld
+	b1 as boolean;
+	b2 as boolean;
+	b3 as boolean;
+    i1 as integer;
+	b4 as boolean;
+	b5 as boolean;
+	f1 as square;
+	f2 as integer;
+	f3 as boolean;
+	f4 as integer;
+    fct2 as function():integer
+    	do
+    		set f2 to i1 + 5
+    	return f2
+    	done
+    fct3 as function():boolean
+    	do
+    		set f3 to b1 and false
+    	return f3
+    	done
+	s1 as square;
+	i2 as integer;
+	b6 as boolean;
+    i3 as integer;
+    s2 as square;
+    fct4 as function():integer
+    	do
+    		set f4 to i1 + 2
+    	return f4
+    	done
+    fct1 as function():square
+    	do
+    		set f1 to s2
+    	return f1
+    	done
+when your turn
+by default
+    do
+    	set i1 to 7
+    	set b1 to true
+    	set s2 to map
+
+        if not fct1() = map then
+    		next move north
+    	done
+
+    	if not fct2() = 12 then
+    		next move east
+    	done
+
+    	if fct3() then
+    		next move west
+    	done
+
+    	if not fct4() = 9 then
+    		next move south
+    	done
+
+    	next do nothing
+
+
+    done

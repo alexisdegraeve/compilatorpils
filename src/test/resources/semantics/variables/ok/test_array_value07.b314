@@ -1,0 +1,11 @@
+/* My comments */
+declare and retain
+    b as boolean;
+    i as integer;
+    s as square;
+when your turn
+by default
+    do
+
+        compute nearby[i+4 - 1, 4 - i]
+    done

@@ -1,0 +1,48 @@
+declare and retain
+
+     import world2.wld
+
+     b as boolean;
+     i as integer;
+ 	 j as integer;
+     s as square;
+     t3 as square[5,5];
+ when your turn
+ by default
+     do
+ 		set i to 0
+ 		set j to 0
+
+ 		while i < 5 do
+ 			while j < 5 do
+ 				if i % 2 = 0 and j % 2 = 0 then
+ 					set t3[i,j] to rock
+ 				else
+ 					set t3[i,j] to vines
+ 				done
+ 				set j to j + 1
+ 			done
+ 			set i to i + 1
+ 		done
+
+ 		set i to 0
+ 		set j to 0
+
+ 		while i < 28 do
+ 			while j < 28 do
+ 				if i % 2 = 0 and j % 2 = 0 then
+ 					if not t3[i,j] = true then
+ 						next move north
+ 					done
+ 				else
+ 					if not t3[i,j] = false then
+ 						next move east
+ 					done
+ 				done
+ 				set j to j + 1
+ 			done
+ 			set i to i + 1
+ 		done
+
+         next do nothing
+     done
