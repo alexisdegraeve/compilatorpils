@@ -1,4 +1,4 @@
-# compilatorpils
+# PILS Compilator
 Compilator PILS (Unamur) 2021
 
 For the University, we have to realize a compilator in JAVA with ANTLR Plugin.
